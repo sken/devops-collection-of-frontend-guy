@@ -1,5 +1,11 @@
 # nonce example
 
+NGINX configuration found in [nginx.conf](nginx/nginx.conf) will create a variable `$nonceValue` & will replace the placeholder `**CSP_NONCE**` with the value   
+
+```
+set $nonceValue $cspNonce;
+sub_filter **CSP_NONCE** $nonceValue;
+```
 ```
 docker build . -t affe:latest
 docker run -p 8080:80 affe:latest
