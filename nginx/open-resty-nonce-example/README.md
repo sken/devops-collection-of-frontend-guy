@@ -1,8 +1,8 @@
 # nonce example
 
 ```
-docker build . --tag affe:latest
-docker run -p 8080:80 --name nginx-nonce-example affe:latest
+docker build . -t affe:latest
+docker run -p 8080:80 affe:latest
 ```
 
 This example show how to make use of the lua-nginx-module to create a nonce value to make csp work 
