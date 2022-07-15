@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Nonce Example</title>
+</head>
+<body>
+<script nonce="**CSP_NONCE**">
+    console.log('this is allowed');
+</script>
+
+<script>
+    console.log('this is not allowed');
+</script>
+<p>
+    **CSP_NONCE**
+</p>
+</body>
+</html>
