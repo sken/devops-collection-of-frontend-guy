@@ -1,6 +1,8 @@
 # Docker Images
 
 ## NGINX
-1. [Create random value to set nonce value](nginx/open-resty-nonce-example/README.md)
-2. [Return static data](nginx/open-resty-static-response/README.md)
+1. [Basic nginx docker image](nginx/basic-nginx/README.md)
+2. [Create random value to set nonce value](nginx/open-resty-nonce-example/README.md)
+3. [Return static data via config](nginx/open-resty-static-response/README.md)
+
 
