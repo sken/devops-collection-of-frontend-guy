@@ -8,9 +8,9 @@ https://docs.docker.com/get-started/02_our_app/
 docker build -t basic-nginx .
 docker run -dp 80:80 basic-nginx
 ```
-
+alternatively
 ```
-docker-compose up
+docker-compose up --build
 ```
 
 
